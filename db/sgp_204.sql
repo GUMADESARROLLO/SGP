@@ -11,7 +11,7 @@
  Target Server Version : 50724
  File Encoding         : 65001
 
- Date: 21/07/2020 14:13:14
+ Date: 21/07/2020 14:33:11
 */
 
 SET NAMES utf8mb4;
@@ -393,7 +393,7 @@ CREATE TABLE `files`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `files_user_id_index`(`user_id`) USING BTREE,
   INDEX `files_filename_index`(`filename`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 50 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 55 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of files
@@ -447,6 +447,9 @@ INSERT INTO `files` VALUES (46, 1, 'Slider01 (1).jpg', 'public_storage', 'media/
 INSERT INTO `files` VALUES (47, 1, 'vm21euwszrldK6E9iEtqsm2WtiJ4OyaA7VIGHPe3.webp', 'public_storage', 'media/8UsVfgnWtp9HGuC6oDATi6gOVpaYN86obPaX2qYl.webp', 'webp', 'image/webp', '7018', '2020-07-21 18:26:00', '2020-07-21 18:26:00');
 INSERT INTO `files` VALUES (48, 1, 'yAaq3dHTWLOlac12ioxGgVrZ3xtrIhKnL5r3roIl.webp', 'public_storage', 'media/3snY79wq1Nslp17Wbk8mJL7bDadZszEFOP8FgWPC.webp', 'webp', 'image/webp', '7720', '2020-07-21 18:26:01', '2020-07-21 18:26:01');
 INSERT INTO `files` VALUES (49, 1, 'yl6rNkswnKQzh7mouQ0HpagRLwBpnq3Mt9LZMRak.webp', 'public_storage', 'media/hDncERVSVgReaCkuV5n2xuRr8S6Qw95AICtXpXsz.webp', 'webp', 'image/webp', '6674', '2020-07-21 18:26:02', '2020-07-21 18:26:02');
+INSERT INTO `files` VALUES (50, 1, 'gumapharma-logo-portada.png', 'public_storage', 'media/b3RljdW1LEfmKVT2cKqcTBzgeqYRZEVHXLo0VMGb.png', 'png', 'image/png', '9964', '2020-07-21 20:20:41', '2020-07-21 20:20:41');
+INSERT INTO `files` VALUES (53, 1, 'o7Z3fzwifjBga5shBOeoFJoLl9p3v9Nl12YIhMlE.webp', 'public_storage', 'media/eMyhI2JOybtZfEBXUwhwWeSlA4tnqdwDHIiYVEAM.webp', 'webp', 'image/webp', '3934', '2020-07-21 20:26:40', '2020-07-21 20:26:40');
+INSERT INTO `files` VALUES (54, 1, '800X168.png', 'public_storage', 'media/yTfqUZZcmxxYzNgYmGrQaEdw0ToTSgjU3EzYcZgw.png', 'png', 'image/png', '28614', '2020-07-21 20:31:33', '2020-07-21 20:31:33');
 
 -- ----------------------------
 -- Table structure for flash_sale_product_orders
@@ -1428,7 +1431,7 @@ INSERT INTO `setting_translations` VALUES (17, 37, 'es', 's:19:\"Check / Money O
 INSERT INTO `setting_translations` VALUES (18, 38, 'es', 's:33:\"Please send a check to our store.\";');
 INSERT INTO `setting_translations` VALUES (19, 40, 'en', 's:27:\"Welcome to GumaPharma store\";');
 INSERT INTO `setting_translations` VALUES (20, 41, 'en', 'N;');
-INSERT INTO `setting_translations` VALUES (21, 42, 'en', 's:2:\"14\";');
+INSERT INTO `setting_translations` VALUES (21, 42, 'en', 's:2:\"54\";');
 INSERT INTO `setting_translations` VALUES (22, 43, 'en', 's:24:\"Free shipping over $100+\";');
 INSERT INTO `setting_translations` VALUES (23, 44, 'en', 's:12:\"Our Services\";');
 INSERT INTO `setting_translations` VALUES (24, 45, 'en', 's:11:\"Information\";');
@@ -1491,7 +1494,7 @@ INSERT INTO `setting_translations` VALUES (80, 238, 'en', 'N;');
 INSERT INTO `setting_translations` VALUES (81, 37, 'en', 's:19:\"Check / Money Order\";');
 INSERT INTO `setting_translations` VALUES (82, 38, 'en', 's:33:\"Please send a check to our store.\";');
 INSERT INTO `setting_translations` VALUES (83, 239, 'en', 's:154:\"Please send your payment to the following account.\r\n<br>\r\nBank Name: Lorem Ipsum.\r\n<br>\r\nBeneficiary Name: John Doe.\r\n<br>\r\nAccount Number/IBAN: 123456789\";');
-INSERT INTO `setting_translations` VALUES (84, 291, 'en', 's:2:\"14\";');
+INSERT INTO `setting_translations` VALUES (84, 291, 'en', 'N;');
 
 -- ----------------------------
 -- Table structure for settings
